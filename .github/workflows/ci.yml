@@ -16,7 +16,7 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     
     services:
-      postgres :
+        postgres :
         image: postgres
         env:
             POSTGRES_PASSWORD: ${{ secrets.PGPASSWORD_TEST }}
